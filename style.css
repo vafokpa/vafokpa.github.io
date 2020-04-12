@@ -1,0 +1,69 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    grid-gap: 3rem;
+    margin: 10 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+    width: 100vh;
+    margin-top:20px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .navbar-brand{
+      color: lightcoral;
+  }
+/*Making some modifications to my "Visualization" card*/
+.image-grid-container { 
+    display: grid; 
+    /* For 2 columns */ 
+    grid-template-columns: auto auto; 
+
+    padding: 0.1rem;
+
+    margin-bottom:8rem;
+  }
+
+/* Defining image size */
+img { 
+    width: 100%; 
+} 
+
+/* Aligning my title from the "Comparisons Page" */
+h2 {
+    text-align:center;
+    font-size: 50px;
+}
+
+/* Sizing my table */
+table {
+
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* 
+Sizing my table some more */
+th, td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+body {
+    margin:100;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 30px;
+
+}

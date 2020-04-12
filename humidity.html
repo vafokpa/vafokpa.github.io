@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>latitudeproject.com</title>
+  </head>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+
+  <!-- Creating the navbar from bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Latitude</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <!-- Adding the dropdown functions -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="temperature.html">Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="windspeed.html">Windspeed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="comparison.html#">Comparisons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html#">Data</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Creating the card decks from bootstrap to display the information -->
+  <div class="card-deck">
+    <div class="card" style= "width:30rem;">
+      <div class="card-body">
+            <h5 class="card-title">Humidity</h5>
+      <img src="Resources/assets/images/Fig2.png" class="card-img-top" alt="...">
+        <p class="card-text">
+            In this graph, you can see that below -20 degrees, there aren't many cities with 100% humidity. 100% humidity means that the air is holding as much moisture as it can at that given temperature, in the form of water vapor. 
+            <br />
+            <br />
+            We can also see that most cities have somewhere between 60% of humidity and 100% of humidity. In our sample of 500 cities, there are very few cities that have less than 40% of humidity in the air. 
+            Finally, we can also see that between 60 degrees latitude and 80 degrees latitude, you are even more likely to have higher % of humidity   
+        </p>
+        <p class="card-text"><small class="text-muted">Humidity Graph</small></p>
+      </div>
+    </div>
+    <div class="card" style= "width:30rem;">
+     <div class="card-body">
+            <h5 class="card-title">Visualizations</h5>
+          </div>
+          <div class="image-grid-container"> 
+            <img src="Resources/assets/images/Fig1.png" class="img-fluid" alt="...">
+             <img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="...">
+            <img src="Resources/assets/images/Fig3.png" class="img-fluid" alt="...">
+            <img src="Resources/assets/images/Fig4.png" class="img-fluid" alt="...">
+         </div> 
+    </div>
